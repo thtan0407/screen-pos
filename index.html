@@ -1,0 +1,691 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Screen Pos</title>
+
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome-5.14/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/pos-screen.css">
+</head>
+<body>
+<div class="screen-main position-relative overflow-hidden">
+    <div class="screen-header border-bottom">
+        <div class="container-fluid">
+            <div class="row no-gutters align-items-center">
+                <div class="col-md-3">
+                    <div class="screen-logo">
+                        <a href="#" class="d-inline-block">
+                            <img src="assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="screen-time text-center">
+                        <div class="time-top">19:35:20</div>
+                        <div class="time-bottom">
+                            <span class="time-day">Thứ 4,</span>
+                            <span class="time-days">19</span>
+                            <span class="time-month">tháng 08,</span>
+                            <span class="time-year">2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="screen-customer d-flex align-items-center justify-content-md-end">
+                        <a href="javascript:void(0)">Add Customer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="screen-inner">
+        <div class="container-fluid">
+            <div class="row no-gutters ">
+                <div class="col-md-8">
+                    <div class="screen-service">
+                        <div class="service-ticket ticket-title overflow-hidden position-relative">
+                            <div class="col-ticket col-id font-weight-bold">
+                                Ticket#
+                            </div>
+                            <div class="col-ticket col-customer font-weight-bold">
+                                Customer
+                            </div>
+                            <div class="col-ticket col-service font-weight-bold">
+                                Service
+                            </div>
+                            <div class="col-ticket col-staff font-weight-bold">
+                                Staff
+                            </div>
+                            <div class="col-ticket col-status font-weight-bold">
+                                Status
+                            </div>
+                            <div class="col-ticket col-action font-weight-bold"></div>
+                        </div>
+                        <div class="ticket-row">
+                            <div class="ticket-item">
+                                <div class="col-id">011</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-finish">Finish</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="addService action-add">Add</a>
+                                </div>
+                            </div>
+                            <div class="ticket-item">
+                                <div class="col-id">012</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-process">Process</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="action-noadd">Not ready</a>
+                                </div>
+                            </div>
+                            <div class="ticket-item">
+                                <div class="col-id">013</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-finish">Finish</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="addService action-add">Add</a>
+                                </div>
+                            </div>
+                            <div class="ticket-item">
+                                <div class="col-id">011</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-finish">Finish</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="addService action-add">Add</a>
+                                </div>
+                            </div>
+                            <div class="ticket-item">
+                                <div class="col-id">012</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-process">Process</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="action-noadd">Not ready</a>
+                                </div>
+                            </div>
+                            <div class="ticket-item">
+                                <div class="col-id">013</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-finish">Finish</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="addService action-add">Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screen-service">
+                        <div class="service-ticket ticket-title overflow-hidden position-relative">
+                            <div class="col-ticket col-id font-weight-bold">
+                                Ticket#
+                            </div>
+                            <div class="col-ticket col-customer font-weight-bold">
+                                Customer
+                            </div>
+                            <div class="col-ticket col-service font-weight-bold">
+                                Service
+                            </div>
+                            <div class="col-ticket col-staff font-weight-bold">
+                                Staff
+                            </div>
+                            <div class="col-ticket col-status font-weight-bold">
+                                Status
+                            </div>
+                            <div class="col-ticket col-action font-weight-bold"></div>
+                        </div>
+                        <div class="ticket-row">
+                            <div class="ticket-item">
+                                <div class="col-id">011</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-finish">Finish</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="addService action-add">Add</a>
+                                </div>
+                            </div>
+                            <div class="ticket-item">
+                                <div class="col-id">012</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-process">Process</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="action-noadd">Not ready</a>
+                                </div>
+                            </div>
+                            <div class="ticket-item">
+                                <div class="col-id">013</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-finish">Finish</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="addService action-add">Add</a>
+                                </div>
+                            </div>
+                            <div class="ticket-item">
+                                <div class="col-id">011</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-finish">Finish</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="addService action-add">Add</a>
+                                </div>
+                            </div>
+                            <div class="ticket-item">
+                                <div class="col-id">012</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-process">Process</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="action-noadd">Not ready</a>
+                                </div>
+                            </div>
+                            <div class="ticket-item">
+                                <div class="col-id">013</div>
+                                <div class="col-customer">Avent Gloria</div>
+                                <div class="col-service">
+                                    <div class="service-name">
+                                        Pedi-Regular
+                                    </div>
+                                    <div class="service-price">
+                                        <input type="text" class="form-control" value="$ 50.00">
+                                    </div>
+                                </div>
+                                <div class="col-staff">
+                                    <div class="service-staff">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Rosalinda Rosalinda Rosalinda</option>
+                                            <option value="">Rosalinda 2</option>
+                                            <option value="">Rosalinda 3</option>
+                                            <option value="">Rosalinda 4</option>
+                                            <option value="">Rosalinda 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-status">
+                                    <span class="status-finish">Finish</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="javascript:void(0)" class="addService action-add">Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="screen-order">
+                        <div class="row-order">
+                            <div class="title-order text-center">
+                                Receipt # 1234501212
+                            </div>
+                            <div class="list-order">
+                                <ul class="mb-0 list-unstyled">
+                                    <li>
+                                        <div class="order-item">
+                                            <div class="order-col-left">
+                                                <div class="order-row-service">
+                                                    Pedi - Regular
+                                                </div>
+                                                <div class="order-row-staff">
+                                                    Staff: <span>Rosalinda</span>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-middle">
+                                                <div class="order-row-price">
+                                                    $35.00
+                                                </div>
+                                                <div class="order-row-tip">
+                                                    <button class="action-add">Add tip</button>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-right">
+                                                <button class="action-undo">Undo</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="order-item">
+                                            <div class="order-col-left">
+                                                <div class="order-row-service">
+                                                    Pedi - Regular
+                                                </div>
+                                                <div class="order-row-staff">
+                                                    Staff: <span>Rosalinda</span>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-middle">
+                                                <div class="order-row-price">
+                                                    $35.00
+                                                </div>
+                                                <div class="order-row-tip">
+                                                    <button class="action-add">Add tip</button>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-right">
+                                                <button class="action-undo">Undo</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="order-item">
+                                            <div class="order-col-left">
+                                                <div class="order-row-service">
+                                                    Pedi - Regular
+                                                </div>
+                                                <div class="order-row-staff">
+                                                    Staff: <span>Rosalinda</span>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-middle">
+                                                <div class="order-row-price">
+                                                    $35.00
+                                                </div>
+                                                <div class="order-row-tip">
+                                                    <button class="action-add">Add tip</button>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-right">
+                                                <button class="action-undo">Undo</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="order-item">
+                                            <div class="order-col-left">
+                                                <div class="order-row-service">
+                                                    Pedi - Regular
+                                                </div>
+                                                <div class="order-row-staff">
+                                                    Staff: <span>Rosalinda</span>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-middle">
+                                                <div class="order-row-price">
+                                                    $35.00
+                                                </div>
+                                                <div class="order-row-tip">
+                                                    <button class="action-add">Add tip</button>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-right">
+                                                <button class="action-undo">Undo</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="order-item">
+                                            <div class="order-col-left">
+                                                <div class="order-row-service">
+                                                    Pedi - Regular
+                                                </div>
+                                                <div class="order-row-staff">
+                                                    Staff: <span>Rosalinda</span>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-middle">
+                                                <div class="order-row-price">
+                                                    $35.00
+                                                </div>
+                                                <div class="order-row-tip">
+                                                    <button class="action-add">Add tip</button>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-right">
+                                                <button class="action-undo">Undo</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="order-item">
+                                            <div class="order-col-left">
+                                                <div class="order-row-service">
+                                                    Pedi - Regular
+                                                </div>
+                                                <div class="order-row-staff">
+                                                    Staff: <span>Rosalinda</span>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-middle">
+                                                <div class="order-row-price">
+                                                    $35.00
+                                                </div>
+                                                <div class="order-row-tip">
+                                                    <button class="action-add">Add tip</button>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-right">
+                                                <button class="action-undo">Undo</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="order-item">
+                                            <div class="order-col-left">
+                                                <div class="order-row-service">
+                                                    Pedi - Regular
+                                                </div>
+                                                <div class="order-row-staff">
+                                                    Staff: <span>Rosalinda</span>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-middle">
+                                                <div class="order-row-price">
+                                                    $35.00
+                                                </div>
+                                                <div class="order-row-tip">
+                                                    <button class="action-add">Add tip</button>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-right">
+                                                <button class="action-undo">Undo</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="order-item">
+                                            <div class="order-col-left">
+                                                <div class="order-row-service">
+                                                    Pedi - Regular
+                                                </div>
+                                                <div class="order-row-staff">
+                                                    Staff: <span>Rosalinda</span>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-middle">
+                                                <div class="order-row-price">
+                                                    $35.00
+                                                </div>
+                                                <div class="order-row-tip">
+                                                    <button class="action-add">Add tip</button>
+                                                </div>
+                                            </div>
+                                            <div class="order-col-right">
+                                                <button class="action-undo">Undo</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row-button">
+                            <div class="button-inner d-flex align-items-center justify-content-center flex-wrap">
+                                <div class="button-item">
+                                    <button class="action-button">Card</button>
+                                </div>
+                                <div class="button-item">
+                                    <button class="action-button">Cash</button>
+                                </div>
+                                <div class="button-item">
+                                    <button class="action-button">Check</button>
+                                </div>
+                                <div class="button-item">
+                                    <button class="action-button">Giftcard</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-button">
+                            <div class="button-payment d-flex align-items-center justify-content-center flex-wra">
+                                <div class="button-item">
+                                    <button class="action-payment">Split payment</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="screen-footer">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-md-2">
+                    <button class="action-success">Open till</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="action-success">Open till</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="action-success">Open till</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="action-success">Open till</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="action-success">Open till</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="action-success no-border">Open till</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
