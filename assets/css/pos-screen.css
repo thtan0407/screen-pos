@@ -69,7 +69,6 @@ a {
   font-size: 1rem;
   background: #ffaa00;
   color: #fff;
-  border-radius: 40px;
   min-width: 60%;
   text-align: center;
   display: inline-block;
@@ -87,7 +86,6 @@ a {
   font-size: 1rem;
   background: #F44336;
   color: #fff;
-  border-radius: 40px;
   min-width: 60%;
   text-align: center;
   display: inline-block;
@@ -105,7 +103,6 @@ a {
   font-size: 1rem;
   background: #F44336;
   color: #fff;
-  border-radius: 40px;
   min-width: 60%;
   text-align: center;
   display: inline-block;
@@ -120,15 +117,16 @@ a {
 
 .screen-main {
   font-size: 1rem;
+  height: 100vh;
 }
 .screen-main .screen-header {
   background-color: #500037;
 }
 .screen-main .screen-header .screen-logo a img {
-  width: 100px;
+  width: 120px;
 }
 .screen-main .screen-header .screen-time {
-  padding: 5px 0;
+  padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,10 +136,10 @@ a {
 .screen-main .screen-header .screen-time .time-top {
   font-weight: bold;
   margin-bottom: 0.2rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .screen-main .screen-header .screen-time .time-bottom {
-  font-size: 0.8rem;
+  font-size: 0.95rem;
 }
 .screen-main .screen-header .screen-customer a {
   display: inline-block;
@@ -154,9 +152,8 @@ a {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  padding: 0 10px;
-  border-radius: 2px;
-  font-size: 0.85rem;
+  padding: 0 20px;
+  font-size: 1rem;
   background: #007ACE;
 }
 .screen-main .screen-header .screen-customer a:hover, .screen-main .screen-header .screen-customer a:focus {
@@ -181,7 +178,7 @@ a {
 .screen-main .screen-inner .screen-service .service-ticket.ticket-title {
   text-transform: capitalize;
   color: #121212;
-  height: 2.6rem;
+  height: 3.2375rem;
   font-size: 1.1rem;
 }
 .screen-main .screen-inner .screen-service .service-ticket [class*=col] {
@@ -228,7 +225,7 @@ a {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
   transition: 0.3s all ease;
-  padding: 0.5rem 0;
+  padding: 0.6rem 0;
 }
 .screen-main .screen-inner .screen-service .ticket-row .ticket-item:hover {
   background: #f6f6ff;
@@ -246,13 +243,12 @@ a {
   width: 20%;
 }
 .screen-main .screen-inner .screen-service .ticket-row .ticket-item .col-service .service-name {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
 }
 .screen-main .screen-inner .screen-service .ticket-row .ticket-item .col-service .service-price input.form-control {
-  height: 28px;
-  line-height: 28px;
+  height: 35px;
+  line-height: 35px;
   font-size: 1rem;
-  border-radius: 4px;
   box-shadow: none !important;
   transition: 0.3s all ease;
   outline: none !important;
@@ -271,10 +267,9 @@ a {
   width: 20%;
 }
 .screen-main .screen-inner .screen-service .ticket-row .ticket-item .col-staff .service-staff select.form-control {
-  height: 32px;
-  line-height: 32px;
+  height: 35px;
+  line-height: 35px;
   font-size: 1rem;
-  border-radius: 4px;
   box-shadow: none !important;
   transition: 0.3s all ease;
   outline: none !important;
@@ -298,24 +293,22 @@ a {
   width: 14%;
 }
 .screen-main .screen-inner .screen-service .ticket-row .ticket-item .col-status .status-finish {
-  padding: 0.4rem 0.8rem;
+  padding: 0.6rem 0.8rem;
   font-size: 1rem;
   background: #8BC34A;
   color: #fff;
-  border-radius: 40px;
 }
 .screen-main .screen-inner .screen-service .ticket-row .ticket-item .col-status .status-process {
-  padding: 0.4rem 0.8rem;
+  padding: 0.6rem 0.8rem;
   font-size: 1rem;
   background: #4b616c;
   color: #fff;
-  border-radius: 40px;
 }
 .screen-main .screen-inner .screen-service .ticket-row .ticket-item .col-action {
   width: 17%;
 }
 .screen-main .screen-inner .screen-order .row-order .title-order {
-  height: 2.8375rem;
+  height: 3.2375rem;
   font-size: 0.9rem;
   font-weight: bold;
   color: #121212;
@@ -355,11 +348,11 @@ a {
 }
 .screen-main .screen-inner .screen-order .row-order .list-order ul li .order-item .order-col-left .order-row-service {
   font-weight: bold;
-  font-size: 1.1rem;
-  margin-bottom: 0.2rem;
+  font-size: 1.15rem;
+  margin-bottom: 0.42rem;
 }
 .screen-main .screen-inner .screen-order .row-order .list-order ul li .order-item .order-col-left .order-row-staff {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: #676767;
 }
 .screen-main .screen-inner .screen-order .row-order .list-order ul li .order-item .order-col-middle {
@@ -410,27 +403,44 @@ a {
 }
 
 @media screen and (min-width: 1366px) {
-  .screen-main .screen-inner .screen-service .ticket-row {
-    max-height: 290px;
+  .screen-main .screen-inner .screen-overflow {
+    max-height: calc(227px * 2 * 1.4);
+    overflow-y: hidden;
+  }
+  .screen-main .screen-inner .screen-overflow::-webkit-scrollbar {
+    width: 10px;
+  }
+  .screen-main .screen-inner .screen-overflow::-webkit-scrollbar-track {
+    background: #d1d1d1;
+  }
+  .screen-main .screen-inner .screen-overflow::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  .screen-main .screen-inner .screen-overflow::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .screen-main .screen-inner .screen-overflow .screen-service .ticket-row {
+    max-height: calc(190px * 1.4);
   }
   .screen-main .screen-inner .screen-order .row-order .list-order ul {
-    max-height: calc(81.25px * 4);
+    max-height: unset;
+    height: calc(59.25px * 4 * 1.4);
   }
   .screen-main .screen-inner .screen-order .row-button .button-inner .button-item {
-    height: 82px;
+    height: calc(55px * 1.4);
   }
   .screen-main .screen-inner .screen-order .row-button .button-inner .button-item button {
-    font-size: 1.4rem;
+    font-size: calc(1rem * 1.4);
   }
   .screen-main .screen-inner .screen-order .row-button .button-payment .button-item {
-    height: 130px;
+    height: calc(70px * 1.4);
   }
   .screen-main .screen-inner .screen-order .row-button .button-payment .button-item button {
-    font-size: 1.4rem;
+    font-size: calc(1rem * 1.4);
   }
   .screen-main .screen-footer > .container-fluid .action-success {
-    font-size: 1.2rem;
-    height: 61px;
+    font-size: calc(1rem * 1.4);
+    height: calc(60px * 1.4);
   }
 }
 
